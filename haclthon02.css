@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+}
+header {
+  position: relative;
+  height: 80vh;
+  background-image: url(./image/hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  color: white;
+  margin-bottom: 50px;
+  background-color: #484248;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 16px;
+}
+.title {
+  text-align: center;
+  color: white;
+}
+.btn {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+}
+.btn button {
+  border-radius: 4px;
+  padding: 8px 24px;
+  transform: translateX(-50%);
+}
+.download {
+  padding: 70px;
+  background-color: #f0cb90;
+  color: white;
+}
+.download
+.tasbar {
+  background-color: bisque;
+  width: 30%;
+}
+.tasbar ul {
+  list-style-type: none;
+}
+.tasbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.tasbar li a {
+  padding: 10px 24px;
+  font-size: 30px;
+}
+/*section2*/
+
+.header2 {
+  display: inline-block;
+}
+.image1 {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+}
