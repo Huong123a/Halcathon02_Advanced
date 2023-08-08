@@ -49,8 +49,14 @@ header {
   padding: 70px;
   background-color: #f0cb90;
   color: white;
+  display: flex;
 }
-.download
+.download-desc {
+  width: 60%;
+}
+.download-image {
+  width: 40%;
+}
 .tasbar {
   background-color: bisque;
   width: 30%;
